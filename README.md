@@ -12,6 +12,8 @@ Join subreddit https://www.reddit.com/r/gptimage2/ for discussions around GPT Im
 
 > **Want to use GPT-Image-2 without an OpenAI account?** Try **[MuAPI](https://muapi.ai)** — a hosted API that gives you GPT-Image-2 text-to-image and image-to-image with a simple REST call. [Get your API key →](https://muapi.ai)
 
+> **Run these prompts via Atlas Cloud** — [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=Awesome-GPT-Image-2-API-Prompts) supports `gpt-image-2` as a hosted API with pay-as-you-go pricing. Use every prompt in this list without managing OpenAI quota. Explore the full model catalog (36+ image models, 90+ video models) at [atlascloud.ai/models](https://www.atlascloud.ai/models).
+
 > **API Usage:** All prompts work with the [OpenAI Images API](https://platform.openai.com/docs/api-reference/images) using model `gpt-image-2`.
 
 ```python
@@ -610,6 +612,10 @@ Scene: Side view of a cross-sea bridge, dramatic cinematic angle. Giant bold san
 - [OpenAI Images API Reference](https://platform.openai.com/docs/api-reference/images)
 - [OpenAI Pricing](https://openai.com/api/pricing)
 
+### Alternative API Providers
+- [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=Awesome-GPT-Image-2-API-Prompts) — Hosted `gpt-image-2` + 36 image models + 90 video models, pay-as-you-go. [Model catalog →](https://www.atlascloud.ai/models)
+- [MuAPI](https://muapi.ai) — GPT-Image-2 text-to-image and image-to-image
+
 ### API Quick Reference
 
 ```python
@@ -689,6 +695,65 @@ request_id = resp.json()["request_id"]
 ```
 
 Get your API key at [muapi.ai](https://muapi.ai).
+
+---
+
+## Use GPT-Image-2 via Atlas Cloud
+
+<img src="atlas-cloud-logo.png" alt="Atlas Cloud" width="180" />
+
+[Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=Awesome-GPT-Image-2-API-Prompts) hosts `gpt-image-2` (`openai/gpt-image-2/text-to-image`) alongside 36+ image models and 90+ video models — all on a single pay-as-you-go API. Drop in any prompt from this list and get results without an OpenAI account.
+
+**Quick start — Text-to-Image:**
+
+```bash
+curl -X POST https://api.atlascloud.ai/api/v1/model/generateImage \
+  -H "Authorization: Bearer <your-atlascloud-key>" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "openai/gpt-image-2/text-to-image",
+    "prompt": "<paste any prompt from this list>",
+    "size": "1024x1024"
+  }'
+```
+
+The response includes a `task_id`; poll the result endpoint to retrieve your image URL.
+
+**Python example (async poll):**
+
+```python
+import httpx, time
+
+API_KEY = "<your-atlascloud-key>"
+BASE = "https://api.atlascloud.ai/api/v1"
+
+# Submit generation
+resp = httpx.post(
+    f"{BASE}/model/generateImage",
+    headers={"Authorization": f"Bearer {API_KEY}"},
+    json={
+        "model": "openai/gpt-image-2/text-to-image",
+        "prompt": "35mm film photography, early 20s woman, neon convenience store at night",
+        "size": "1024x1024",
+    },
+)
+data = resp.json()["data"]
+poll_url = data["urls"]["get"]  # e.g. /api/v1/model/prediction/<id>
+
+# Poll for result
+while True:
+    result = httpx.get(
+        poll_url,
+        headers={"Authorization": f"Bearer {API_KEY}"},
+    ).json()
+    if result["data"]["status"] == "succeeded":
+        print(result["data"]["outputs"])
+        break
+    time.sleep(3)
+```
+
+- Get your API key: [atlascloud.ai](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=Awesome-GPT-Image-2-API-Prompts)
+- Full model catalog: [atlascloud.ai/models](https://www.atlascloud.ai/models)
 
 ---
 
