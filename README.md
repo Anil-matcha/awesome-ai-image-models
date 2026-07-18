@@ -39,6 +39,7 @@ print(response.data[0].url)
 - [Free-AI-Social-Media-Scheduler](https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler) — Schedule your GPT-Image-2 generated visuals across all social platforms
 
 - [Awesome Claude Fable 5](https://github.com/Anil-matcha/awesome-claude-fable-5) — Curated real-world use cases, tutorials, and benchmarks for Claude Fable 5 — access exclusively via MuAPI
+- [awesome-ai-image-models](https://github.com/Anil-matcha/awesome-ai-image-models) — compare AI image models by API, price & quality
 
 ## Why GPT-Image-2?
 
