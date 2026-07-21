@@ -14,6 +14,7 @@ Unlike other lists that just dump links, this one answers the question developer
 - [nano-banana-generator](https://github.com/SamurAIGPT/nano-banana-generator) — generate with Google Nano Banana
 - [ai-headshot-generator](https://github.com/SamurAIGPT/ai-headshot-generator) — AI headshots pipeline
 - [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) — runtime for generative-media prompts
+- [ai-creator-academy](https://github.com/Anil-matcha/ai-creator-academy) — free curriculum teaching creators how to monetize the models compared in this list
 
 ## Contents
 
