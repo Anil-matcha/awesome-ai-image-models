@@ -101,6 +101,7 @@ Check independent evals before trusting a maker's demo gallery:
 Aggregators that expose many of the above behind one API/key:
 
 - **[MuAPI](https://muapi.ai)** — unified API across image + video models (Nano Banana, FLUX, Seedream, and more), one key, one billing
+- **[RunAPI](https://runapi.ai)** — OpenAI-compatible API platform for running image and other media model jobs with one key
 - **[Fal](https://fal.ai)** — fast inference, broad model catalog
 - **[Replicate](https://replicate.com)** — pay-per-run, large community model catalog
 
