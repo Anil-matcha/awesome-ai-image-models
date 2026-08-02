@@ -8,6 +8,8 @@ Unlike other lists that just dump links, this one answers the question developer
 
 ## Related Projects
 
+- [MuAPI image playground](https://muapi.ai/playground) — Run the image models compared in this list through one API.
+- [MuAPI model docs](https://muapi.ai/docs/models) — Browse model IDs and supported capabilities.
 - [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models) — sister list: compare AI **video** models by API, price & speed
 - [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — curated hub of open generative-media tools and pipelines
 - [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) — prompt library for GPT Image
