@@ -8,6 +8,7 @@ Unlike other lists that just dump links, this one answers the question developer
 
 ## Related Projects
 
+- [awesome-uncensored-ai-image-models](https://github.com/Anil-matcha/awesome-uncensored-ai-image-models) — Filtering-, access-, and licensing-focused companion catalog for local and hosted image model variants
 - [MuAPI image playground](https://muapi.ai/playground) — Run the image models compared in this list through one API.
 - [MuAPI model docs](https://muapi.ai/docs/models) — Browse model IDs and supported capabilities.
 - [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models) — sister list: compare AI **video** models by API, price & speed
