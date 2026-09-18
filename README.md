@@ -24,6 +24,7 @@ Unlike other lists that just dump links, this one answers the question developer
 - [MuAPI model docs](https://muapi.ai/docs/models) — Browse model IDs and supported capabilities.
 - [midjourney-api](https://github.com/Anil-matcha/midjourney-api) — Python SDK for Midjourney V7, V8, and Niji generation through MuAPI.
 - [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models) — sister list: compare AI **video** models by API, price & speed
+- [awesome-gemini-4-pro](https://github.com/Anil-matcha/awesome-gemini-4-pro) — frontier Gemini use cases covering structured visual generation and multimodal workflows.
 - [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — curated hub of open generative-media tools and pipelines
 - [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) — prompt library for GPT Image
 - [nano-banana-generator](https://github.com/SamurAIGPT/nano-banana-generator) — generate with Google Nano Banana
