@@ -36,8 +36,8 @@ Unlike other lists that just dump links, this one answers the question developer
 - [awesome-flux-3-api-prompts](https://github.com/Anil-matcha/awesome-flux-3-api-prompts) — FLUX 3 API guide, prompts, and parameters
 - [LoRA-Trainer-API](https://github.com/Anil-matcha/LoRA-Trainer-API) — compare Muapi LoRA training endpoints for custom image adapters.
 - [Image-Enhancement-API](https://github.com/Anil-matcha/Image-Enhancement-API) — compare Muapi image upscaling and background-removal APIs.
-- [Nano-Banana-3-API](https://github.com/Anil-matcha/Nano-Banana-3-API) — clearly labeled watchlist; its runnable example uses the live Nano Banana Pro API until a successor is confirmed.
-- [GPT-Image-3-API](https://github.com/Anil-matcha/GPT-Image-3-API) — clearly labeled watchlist; its runnable example uses the live GPT Image 2 API until a successor is confirmed.
+- [Nano-Banana-3-API](https://github.com/Anil-matcha/Nano-Banana-3-API) — Python client and image-generation examples for the Nano Banana API through MuAPI.
+- [GPT-Image-3-API](https://github.com/Anil-matcha/GPT-Image-3-API) — Python client and image-generation examples for GPT Image through MuAPI.
 
 ## Contents
 
