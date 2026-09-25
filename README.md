@@ -149,6 +149,7 @@ Check independent evals before trusting a maker's demo gallery:
 
 - **Artificial Analysis Image Arena** (Text-to-Image + Image Editing) — Elo-style human-preference leaderboards
 - **HEIM** (Holistic Evaluation of Image Models) — multi-dimension benchmark
+- **[ImageBench V1](https://imagebench.ai/imagebench-v1)** — prompt-adherence leaderboard across 60+ frontier models (Nano Banana Pro, Flux 2 Max, Seedream V4, Reve 2.1, Imagen 4 Ultra, Qwen Image 2.0 Pro, Grok Imagine 2.0, and more); same prompts run on every model, judged by a VLM panel with a public [methodology](https://imagebench.ai/imagebench-v1/methodology) and side-by-side [head-to-head comparisons](https://imagebench.ai/imagebench-v1/compare)
 - **FID / CLIP Score / ImageReward** — automated quality & alignment metrics
 
 ## How to choose
