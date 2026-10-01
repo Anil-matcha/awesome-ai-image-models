@@ -30,7 +30,7 @@ Unlike other lists that just dump links, this one answers the question developer
 - [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) — prompt library for GPT Image
 - [nano-banana-generator](https://github.com/SamurAIGPT/nano-banana-generator) — generate with Google Nano Banana
 - [ai-headshot-generator](https://github.com/SamurAIGPT/ai-headshot-generator) — AI headshots pipeline
-- [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) — runtime for generative-media prompts
+- [muapi-skills](https://github.com/SamurAIGPT/muapi-skills) — runtime for generative-media prompts
 - [ai-creator-academy](https://github.com/Anil-matcha/ai-creator-academy) — free curriculum teaching creators how to monetize the models compared in this list
 - [Flux-3-Dev-API](https://github.com/Anil-matcha/Flux-3-Dev-API) — Python wrapper for Black Forest Labs' FLUX 3 (Dev variant) — text-to-image, image-to-image, text-to-video, image-to-video
 - [Grok-Imagine-Image-2-API](https://github.com/Anil-matcha/Grok-Imagine-Image-2-API) — Python SDK and MCP server for Grok Imagine Image 2.0 text-to-image and multi-reference editing through MuAPI
