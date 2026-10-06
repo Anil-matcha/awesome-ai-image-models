@@ -38,6 +38,7 @@ Unlike other lists that just dump links, this one answers the question developer
 - [LoRA-Trainer-API](https://github.com/Anil-matcha/LoRA-Trainer-API) — compare Muapi LoRA training endpoints for custom image adapters.
 - [Image-Enhancement-API](https://github.com/Anil-matcha/Image-Enhancement-API) — compare Muapi image upscaling and background-removal APIs.
 - [Nano-Banana-3-API](https://github.com/Anil-matcha/Nano-Banana-3-API) — Python client and image-generation examples for the Nano Banana API through MuAPI.
+- [Nano-Banana-2.1-API](https://github.com/Anil-matcha/Nano-Banana-2.1-API) — Nano Banana 2.1 text-to-image and image-edit API guide with Python, JavaScript, and curl examples through MuAPI.
 - [GPT-Image-3-API](https://github.com/Anil-matcha/GPT-Image-3-API) — Python client and image-generation examples for GPT Image through MuAPI.
 
 ## Contents
