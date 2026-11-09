@@ -152,6 +152,7 @@ Check independent evals before trusting a maker's demo gallery:
 
 - **Artificial Analysis Image Arena** (Text-to-Image + Image Editing) — Elo-style human-preference leaderboards
 - **HEIM** (Holistic Evaluation of Image Models) — multi-dimension benchmark
+- **[Spicy Lab](https://spicyapi.app)** — Independent NSFW AI image (plus video/chat) model rankings with side-by-side test runs and published methodology; not a generator (160 models / 3,854 runs as of 2026-11-07).
 - **FID / CLIP Score / ImageReward** — automated quality & alignment metrics
 
 ## How to choose
