@@ -102,6 +102,7 @@ See the companion [awesome-uncensored-ai-image-models](https://github.com/Anil-m
 | **HunyuanImage 3.0** | Tencent | Open (check terms) | Largest OSS model (80B MoE) | self-host | ~40GB+ |
 | **Stable Diffusion 3.5 Large** | Stability AI | Community License (free <$1M rev) | Ecosystem, LoRAs, ControlNet | Fal, Replicate, self-host | ~18GB+ |
 | **SANA** | NVIDIA | Permissive research | Fast, efficient, low-VRAM | self-host | ~12GB |
+| **MOSS-Image** | OpenMOSS | Apache-2.0 | In-image text (EN/CN) with layout-box placement control | ComfyUI (native support), self-host | ~4GB+ (peak 3.65 GiB reported) |
 
 ## Image editing & control
 
