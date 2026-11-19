@@ -24,6 +24,7 @@ Unlike other lists that just dump links, this one answers the question developer
 - [MuAPI image playground](https://muapi.ai/playground) — Run the image models compared in this list through one API.
 - [MuAPI model docs](https://muapi.ai/docs/models) — Browse model IDs and supported capabilities.
 - [FLUX Klein API guide and examples](https://github.com/Anil-matcha/Flux-Klein-API) — compare FLUX 3 Klein image generation and editing routes, with current inputs and per-image pricing on [Muapi's FLUX Klein page](https://muapi.ai/flux-klein).
+- [MAI Image 2.7 API guide and examples](https://github.com/Anil-matcha/MAI-Image-2.7-API) — Microsoft MAI Image 2.7 and Flash text-to-image and editing with transparent backgrounds, with pricing on [Muapi's MAI Image page](https://muapi.ai/mai-image).
 - [midjourney-api](https://github.com/Anil-matcha/midjourney-api) — Python SDK for Midjourney V7, V8, and Niji generation through MuAPI.
 - [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models) — sister list: compare AI **video** models by API, price & speed
 - [awesome-gemini-4-pro](https://github.com/Anil-matcha/awesome-gemini-4-pro) — frontier Gemini use cases covering structured visual generation and multimodal workflows.
