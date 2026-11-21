@@ -154,6 +154,7 @@ Check independent evals before trusting a maker's demo gallery:
 - **Artificial Analysis Image Arena** (Text-to-Image + Image Editing) — Elo-style human-preference leaderboards
 - **HEIM** (Holistic Evaluation of Image Models) — multi-dimension benchmark
 - **FID / CLIP Score / ImageReward** — automated quality & alignment metrics
+- **[Highworth AI](https://highworth.ai/)** — Community worth-it scores for image models (Midjourney, FLUX, Seedream, Nano Banana, MiniMax H3 Image), aggregated from verified user reviews on Hacker News, Reddit, V2EX and Bilibili.
 
 ## How to choose
 
